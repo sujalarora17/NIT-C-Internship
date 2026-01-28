@@ -1,1 +1,1 @@
-# NIT-C-Internship
+📦 Complete project files are available in the Releases section.
