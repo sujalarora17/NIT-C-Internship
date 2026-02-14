@@ -1,0 +1,130 @@
+.trans {
+  padding: 40px 30px;
+  max-width: 700px;
+  margin: 60px auto;
+  
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #f0f0f0;
+  background: linear-gradient(145deg, #1c1c1c, #121212);
+  border-radius: 20px;
+  box-shadow:
+    8px 8px 16px #0f0f0f,
+    -8px -8px 16px #282828;
+  transition: box-shadow 0.3s ease;
+}
+
+.trans:hover {
+  box-shadow:
+    12px 12px 20px #0a0a0a,
+    -12px -12px 20px #333333;
+}
+
+.upload-btn {
+  margin: 25px 0 15px;
+  padding: 14px 25px;
+  font-size: 18px;
+  
+  font-weight: 600;
+  color: #222;
+  background: #ffffff;
+  border-radius: 30px;
+  border: 2px solid #ff6a00;
+  cursor: pointer;
+  box-shadow:
+    2px 2px 5px rgba(255, 106, 0, 0.4),
+    inset 0 0 8px #ff6a00;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #ff6a00;
+  color: white;
+  box-shadow:
+    0 0 15px #ff6a00,
+    inset 0 0 10px #ff6a00;
+}
+
+.image-preview {
+  margin-top: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow:
+    0 10px 30px rgba(255, 106, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.image-preview:hover {
+  transform: scale(1.03);
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 3px solid #ff6a00;
+}
+
+.translate-btn {
+  margin: 30px 0 0;
+  padding: 14px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow:
+    0 8px 20px rgba(238, 9, 121, 0.6);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.translate-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  box-shadow:
+    0 10px 25px rgba(255, 106, 0, 0.8);
+}
+
+.translate-btn:disabled {
+  background-color: #555555;
+  box-shadow: none;
+  cursor: not-allowed;
+  color: #cccccc;
+}
+
+.output {
+  margin-top: 40px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow:
+    inset 0 0 12px rgba(255, 255, 255, 0.15);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #ffbb80;
+  user-select: text;
+}
+
+@media (max-width: 768px) {
+  .trans {
+    padding: 30px 20px;
+    margin: 40px 15px;
+  }
+  
+  .upload-btn,
+  .translate-btn {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+  }
+  
+  .output {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,78 @@
+.content {
+  font-family: "Open Sans", sans-serif;
+
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  gap:30px;
+  justify-content: center;
+}
+
+.contenth3 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 650;
+  font-size: 65px;
+  color: whitesmoke;
+
+  /* Animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideBounce 2s ease forwards;
+  animation-delay: 0.3s;
+}
+.tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tagline p{
+    color: gray;
+    align-items: center;
+}
+.tryon{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+.trynow{
+    width: 140px;
+    height: 40px;
+ border-radius: 20px;
+ border: none;
+ font-size: 18px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+}
+.coma{
+    transition: all 0.3s ease;
+     width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+ border-radius: 20px;
+ border:1px solid white;
+ font-size: 18px;
+ cursor: pointer;
+
+}
+.coma:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes fadeSlideBounce {
+  0% {
+    opacity: 0;
+
+  }
+ 
+  100% {
+    opacity: 1;
+
+  }
+}

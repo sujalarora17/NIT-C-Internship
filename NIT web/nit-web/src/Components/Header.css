@@ -1,0 +1,52 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 40px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  font-family: 'Outfit', sans-serif;
+}
+
+.linker {
+  display: flex;
+  gap: 30px;
+}
+
+.linker a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.linker a:hover {
+  color: #00d9ff;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign button {
+  width: 110px;
+  height: 40px;
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign button:hover {
+  background-color: #00d9ff;
+  color: white;
+}
