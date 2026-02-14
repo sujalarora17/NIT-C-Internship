@@ -1,12 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { useClerk, useUser, UserButton } from '@clerk/clerk-react';
 
 const Header = () => {
-  const { openSignIn } = useClerk();
-  const { user } = useUser();
-
   return (
     <div className="head">
       <div className="linker">
@@ -17,18 +13,12 @@ const Header = () => {
       </div>
 
       <div className="sign">
-        {user ? (
-          <>
-            <span style={{ marginRight: '10px', color: 'white' }}>
-              Welcome, {user.firstName || user.username || 'User'}
-            </span>
-            <UserButton afterSignOutUrl="/" />
-          </>
-        ) : (
-          <button onClick={openSignIn} className="auth-btn">
-            Sign In
-          </button>
-        )}
+        <button
+          className="auth-btn"
+          onClick={() => alert("Authentication removed for deployment demo")}
+        >
+          Sign In
+        </button>
       </div>
     </div>
   );
