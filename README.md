@@ -1,36 +1,47 @@
 # Visual Interface for Handwritten Character Recognition (Deep Learning)
 
-This project was developed during my **AI Internship at National Institute of Technology Calicut (NITC)**  
-**Duration:** 14 May 2025 – 14 July 2025  
-**Department:** Computer Science & Engineering  
-**Faculty Guide:** Dr. Umamaheswara Sharma B  
+🚀 **Live Demo:** https://nit-c-internship.vercel.app  
+💻 **Source Code:** https://github.com/sujalarora17/NIT-C-Internship  
+
+---
+
+## Internship Details
+
+Developed during AI Internship at  
+**National Institute of Technology Calicut (NITC)**  
+📅 14 May 2025 – 14 July 2025  
+👨‍🏫 Under the guidance of Dr. Umamaheswara Sharma B  
 
 ---
 
 ## Project Overview
 
-A deep learning-based system for **handwritten character recognition (OCR)** integrated with a full-stack visual interface.  
+A deep learning-based system for **Handwritten Character Recognition (OCR)** integrated with a full-stack web interface.
 
-The backend is built using **FastAPI**, and the frontend is developed using **React**, enabling real-time handwritten text prediction and interactive document digitization workflows.
+- Backend: **FastAPI**
+- Frontend: **React (Vite)**
+- Real-time handwritten text prediction
+- Interactive UI for document digitization
 
 ---
 
 ## Tech Stack
 
-- **Backend:** Python, FastAPI  
-- **Frontend:** React, Vite  
-- **Machine Learning:** Deep Learning-based OCR  
-- **Tools:** Git, GitHub  
+- Python
+- FastAPI
+- React
+- Vite
+- Git & GitHub
 
 ---
 
 ## Key Features
 
-- Image upload functionality  
-- Real-time handwritten text prediction  
-- REST API integration between frontend and backend  
-- Interactive and user-friendly web interface  
-- Document digitization support  
+- Image upload functionality
+- Real-time handwritten text recognition
+- REST API integration
+- Responsive UI
+- Deployed frontend using Vercel
 
 ---
 
@@ -43,6 +54,4 @@ The backend is built using **FastAPI**, and the frontend is developed using **Re
 
 ## Note
 
-Due to large project size and model files, the complete project (including large assets) is also available in the **Releases section** as a ZIP file.
-
-Environment files such as `.env`, `.venv`, and `node_modules` are intentionally excluded from this repository.
+Large files and assets are available in the Releases section.
